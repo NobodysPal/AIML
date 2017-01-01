@@ -1,0 +1,16 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!--chat.aiml -->
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Well, hello!
+        </template>
+    </category>
+    <category>
+        <pattern>PING *</pattern>
+        <template>
+            COMMAND PING <set name="ping"><star/></set>
+        </template>
+    </category>
+</aiml>
